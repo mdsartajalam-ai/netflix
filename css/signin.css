@@ -1,0 +1,279 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Darumadrop+One&family=Liter&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+
+  
+
+/* 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Darumadrop+One&family=Liter&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet"> */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/42a0bce6-fc59-4c1c-b335-7196a59ae9ab/web/IN-en-20250303-TRIFECTA-perspective_d5f81427-d6cf-412d-8e86-2315671b9be1_large.jpg);
+    height: 785px;
+    width: 100%;
+    /* background-color: blue; */
+    /* border: 2px solid red; */
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main .header nav svg{
+    width: 9.25rem;
+    height: 2.5rem;
+
+}
+.main .header nav {
+    /* border: 2px solid white; */
+    padding-top: 24px;
+    padding-bottom: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.main .header{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.main .signin-box{
+    height: 650px;
+    width: 440px;
+    /* border: 2px solid red; */
+    background-color: black;
+    opacity: 0.8;
+    margin: auto;
+    /* opacity: ; */
+    position: relative;
+    z-index: 2;
+ 
+   
+}
+.main .signin-box .hero{
+   padding: 48px 64px 48px 64px;
+   /* border: 2px solid red; */
+   /* position: absolute; */
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+   /* position: relative; */
+
+}
+.main .signin-box .hero .head h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    width: 100%;
+    /* width: 322px; */
+    /* height: 54px; */
+    /* border: 2px solid red; */
+    padding: 0px 0px 9px  0px;
+    border-radius: 5px;
+    /* padding: 0; */
+    margin: 0;
+    margin-top: 14px;
+   
+}
+.main .signin-box .hero .input1 input{
+    width: 280px;
+    /* height: 56px; */
+    padding: 16px 16px 16px 16px;
+    background-color: transparent;
+    color: white;
+    /* position: absolute; */
+    border-radius: 5px;
+    /* width: 100%; */
+    z-index: 5;
+    font-weight: lighter;
+    
+}
+.main .signin-box .hero .button1 button{
+    /* width: 100%; */
+    width: 315px;
+    /* border: 2px solid red ; */
+    border: none;
+    padding: 11px;
+    /* background: rgb(229, 9, 20); */
+    background-color: red;
+    /* background-color: red; */
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.main .signin-box .hero .button1 button:hover{
+    background-color: rgb(206, 1, 1);
+}
+
+.main .signin-box .hero .paragraph1 p{
+    /* border: 2px solid red; */
+    margin: 0;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
+.main .signin-box .hero .button2 button{
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    padding: 11px;
+    width: 315px;
+    background-color: rgba(128, 128, 128, 0.4);
+    cursor: pointer;
+
+}
+
+.main .signin-box .hero .button2 button:hover{
+    background-color: rgba(96, 95, 95, 0.4);
+}
+.main .signin-box .hero .anchar-first a{
+    /* border: 2px solid red; */
+    display: flex;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    justify-content: center;
+   
+}
+.main .signin-box .hero .anchar-first a:hover{
+    color: rgb(170, 170, 170);
+    
+
+}
+.main .signin-box .hero label{
+    display: flex;
+    /* border: 2px solid red; */
+    color: white;
+    font-weight: 400;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    margin-top: 3px;
+}
+.main .signin-box .hero label p{
+    margin: 0;
+    padding: 0;
+}
+
+.main .signin-box .hero lablel input{
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    /* border: 4px solid red; */
+    width: 20px;
+}
+.main .signin-box .hero span{
+    
+    /* border: 2px solid red; */
+    color: white;
+    margin-top: 20px;
+}
+.main .signin-box .hero .span{
+   margin-top: 5px;
+}
+
+.main .signin-box .hero span a{
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.main .signin-box .hero span a:hover{
+    text-decoration: underline;
+
+}
+.main .signin-box .hero .paragraph2 p{
+    /* border: 2px solid red; */
+    font-size: 13px;
+    color: white;
+    font-weight: 500;
+    padding: 0;
+    /* margin: 0; */
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+.main .signin-box .hero .anchar2 a{
+    display: flex;
+    /* border: 2px solid red; */
+    color: blue;
+   
+}
+footer{
+    height: 285px;
+    /* width: 100%; */
+    border: 2px solid  rgb(22, 22, 22) ;
+    /* background-color: aqua;   */
+    background-color: rgb(22, 22, 22);
+}
+footer .footer-box{
+    height: 145px;
+    /* width: 100%; */
+    /* background-color: blue; */
+    /* border: 2px solid red; */
+    margin:70px 125px;
+    padding-left: 48px;
+    padding-right: 48px;
+
+}
+.footer-box .footer-first{
+    color: white;
+    font-weight: 400;
+    /* border: 1px solid red; */
+}
+.footer-box .footer-first span a{
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+.footer-box .footer-second{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.footer-box .footer-second ul{
+    list-style: none;
+    line-height: 35px;
+   
+    
+}
+.footer-box .footer-second ul li a{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    line-height: 10px;
+}
+
+.footer-box .footer-third select{
+    padding: 5px 23px 5px 23px;
+    margin-top: 18px;
+    color: white;
+    background: transparent;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

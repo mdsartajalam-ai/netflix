@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    height: 100vh;
+    /* border: 2px solid red; */
+    /* background-color: aqua; */
+    /* display: flex;
+    align-items: center; */
+    background-color: rgb(22, 22, 22);
+    
+    
+    /* background: radial-gradient(50% 100% at 50% 0%, rgba(44, 66, 156, 0.15) 0%, rgba(0, 0, 0, 0) 100%);   */
+}
+
+.main header nav svg{
+    width: 9.25rem;
+    height: 2.5rem;
+
+}
+.main header nav{
+    /* border: 2px solid red; */
+    padding-top: 24px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.main .box-first{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/42a0bce6-fc59-4c1c-b335-7196a59ae9ab/web/IN-en-20250303-TRIFECTA-perspective_d5f81427-d6cf-412d-8e86-2315671b9be1_large.jpg);
+    width: 1400px;
+    height:570px;
+    /* background-color: blue; */
+    margin: auto;
+    /* border: 2px solid red; */
+    border-radius: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+
+ 
+    /* margin: 50px 50px 50px 50px; */
+}
+.main .box-first .first-box{
+    width: 1400px;
+    height: 570px;
+    margin: auto;
+    border-radius: 60px;
+    background-color: black;
+    opacity: 0.44;
+    /* position: relative; */
+
+    
+}
+.main .box-first .second{
+    height: 531px;
+    /* border: 1px solid red; */
+    width: 320px;
+    /* position: absolute; */
+    background-color: white;
+    /* opacity: 0.9; */
+    position: absolute;
+    top: 0;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: ; */
+    gap: 13px;
+    /* align-items: center; */
+    padding: 40px 30px 0px 30px;
+
+  
+}
+.my label{
+    display: inline-block;
+    /* display:block; */
+}
+.my input{
+    /* display: block; */
+    width: 100%;
+    margin-top: 7px;
+    padding: 12px 20px;
+    border: 2px solid rgb(204, 204, 204);
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.submit-first input{
+    /* display: block; */
+    width: 100%;
+    padding: 12px 20px;
+    /* border: 2px solid rgb(204, 204, 204); */
+    border: none;
+    box-sizing: border-box;
+    background-color: rgb(25, 25, 241);
+    cursor:pointer;
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+
+}
+.submit-first input:hover{
+    background-color: rgb(4, 4, 205);
+
+}
+.login p{
+    text-align: center;
+    color:  rgb(96, 94, 94);
+}
+.login a{
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+.paragraph p{
+    text-align: center;
+}
+.submit-second button{
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    cursor:pointer;
+    color: black;
+    font-weight: 700;
+    border-radius: 20px;
+
+}
+.submit-second button img{
+    /* height: 16px; */
+    /* margin-top: 5px; */
+    /* display: flex; */
+   left: 70px;
+    width:16px;
+    position: absolute;
+    align-items: center;
+}
+.submit-second button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+   
+}
